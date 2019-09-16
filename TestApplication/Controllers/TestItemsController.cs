@@ -31,6 +31,7 @@ namespace TestApplication.Controllers
             {
                 new TestSubItem() {Name = "Test", Code = 1, SubName = "SubTest1"},
                 new TestSubItem() {Name = "Test", Code = 2, SubName = "SubTest2"},
+                new TestSubItem() {Name = "Test", Code = 2, SubName = "SubTest3"},
             };
 
             _testItem.TestSubItems = _testSubItem;
@@ -81,6 +82,7 @@ namespace TestApplication.Controllers
             }
             return testItem;
         }
+
 
         public void PostTestItem()
         {
